@@ -1,0 +1,18 @@
+﻿<Window x:Class="Fractal.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Fractal"
+        mc:Ignorable="d"
+        Title="Generate Fractal Sequence" Height="500" Width="640">
+    <Grid>
+        <StatusBar x:Name="status1" HorizontalAlignment="Stretch" VerticalAlignment="Bottom"  Height="30">
+            <Label x:Name="label1" VerticalContentAlignment="Stretch" HorizontalContentAlignment="Stretch" >Test</Label>
+        </StatusBar>
+        <Grid>
+            <Image x:Name="image1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Initialized="image1_Initialized" Loaded="image1_Loaded" Margin="0,0,0,30" />
+        </Grid>
+        
+    </Grid>
+</Window>
